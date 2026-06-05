@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "name": "aviator-web",
+  "public": true,
+  "builds": [
+    { "src": "**", "use": "@vercel/static" }
+  ],
+  "routes": [
+    { "src": "/(.*)", "dest": "/index.html" }
+  ]
+}
