@@ -1,4 +1,9 @@
 {
+  "scripts": {
+    "build": "flutter build web --release",
+    "vercel-build": "flutter build web --release",
+    "start": "python3 -m http.server --directory build/web 8000"
+  },
   "devDependencies": {
     "vercel": "^54.9.1"
   }
